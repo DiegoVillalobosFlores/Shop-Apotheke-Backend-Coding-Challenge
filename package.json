@@ -7,11 +7,24 @@
   "repository": "https://github.com/DiegoVillalobosFlores/Shop-Apotheke-Backend-Coding-Challenge.git",
   "author": "Villalobos <diegovillalobos397@gmail.com>",
   "private": false,
+  "scripts": {
+    "test": "nyc ava"
+  },
   "devDependencies": {
-    "ava": "3.11.0",
     "eslint": "7.5.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-plugin-import": "2.22.0",
+    "esm": "3.2.25",
     "nyc": "15.1.0"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "dependencies": {
+    "ava": "3.11.0",
+    "moment": "2.27.0",
+    "superagent": "5.3.1"
   }
 }
