@@ -1,8 +1,8 @@
 import superagent from 'superagent';
 
 class Repositories {
-  constructor(GITHUB_API_URL) {
-    this.BASE_URL = GITHUB_API_URL;
+  constructor() {
+    this.BASE_URL = 'https://api.github.com';
     this.SEARCH_REPOS_URL = '/search/repositories';
     this.USER_AGENT = 'Shop-Apotheke-Coding-Challenge';
   }

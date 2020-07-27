@@ -5,7 +5,7 @@ import Repositories from '../src';
 
 test.before((t) => {
   // eslint-disable-next-line no-param-reassign
-  t.context.repositories = Repositories({ GITHUB_API_URL: 'https://api.github.com' });
+  t.context.repositories = Repositories();
 });
 
 test('get repos by language', async (t) => {
