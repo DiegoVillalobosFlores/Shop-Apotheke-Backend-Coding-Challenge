@@ -2,5 +2,14 @@
   "name": "shop-apotheke-backend-coding-challenge",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "Backend challenge for shop apotheke",
+  "repository": "https://github.com/DiegoVillalobosFlores/Shop-Apotheke-Backend-Coding-Challenge.git",
+  "author": "Villalobos <diegovillalobos397@gmail.com>",
+  "private": false,
+  "devDependencies": {
+    "ava": "3.11.0",
+    "eslint": "7.5.0",
+    "nyc": "15.1.0"
+  }
 }
