@@ -71,3 +71,15 @@ test('get repos with sorting', async (t) => {
 
   t.is(firstRepoAsc.stargazers_count > secondRepoAsc.stargazers_count, true);
 });
+
+test('get repos with limit', async (t) => {
+  const { repositories } = t.context;
+
+  const limitResponse = await repositories.getRepositories({
+    language: 'javascript',
+    createdAt: '2020-06-26',
+    limit: 2,
+  });
+
+  t.is(limitResponse.data.length, 2);
+});
