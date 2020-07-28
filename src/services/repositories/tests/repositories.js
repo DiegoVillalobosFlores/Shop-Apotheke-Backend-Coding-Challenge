@@ -44,13 +44,9 @@ test('get repos by created at', async (t) => {
 test('get repos with sorting', async (t) => {
   const { repositories } = t.context;
 
-  await t.throwsAsync(repositories.getRepositories({ sorting: { } }));
-
   const starSortingResponse = await repositories.getRepositories({
     language: 'javascript',
-    sorting: {
-      field: 'stars',
-    },
+    sort: 'stars',
   });
 
   t.is(starSortingResponse.data.length > 1, true);
@@ -61,10 +57,8 @@ test('get repos with sorting', async (t) => {
 
   const starSortedAscResponse = await repositories.getRepositories({
     language: 'javascript',
-    sorting: {
-      field: 'stars',
-      direction: 'asc',
-    },
+    sort: 'stars',
+    order: 'asc',
   });
 
   const [firstRepoAsc, secondRepoAsc] = starSortedAscResponse.data;
