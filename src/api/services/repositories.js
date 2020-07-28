@@ -7,21 +7,27 @@ export default [
   [
     'get',
     '/getMostPopularRepos',
-    (request) => repositories.getRepositories({ ...request.query, sort: 'stars' }),
+    (request) => repositories.getRepositories({ ...request.query, sort: 'stars', order: 'desc' }),
   ],
   [
     'get',
     '/getTop10Repos',
-    (request) => repositories.getRepositories({ ...request.query, sort: 'stars', limit: 10 }),
+    (request) => repositories.getRepositories({
+      ...request.query, sort: 'stars', order: 'desc', limit: 10,
+    }),
   ],
   [
     'get',
     '/getTop50Repos',
-    (request) => repositories.getRepositories({ ...request.query, sort: 'stars', limit: 50 }),
+    (request) => repositories.getRepositories({
+      ...request.query, sort: 'stars', order: 'desc', limit: 50,
+    }),
   ],
   [
     'get',
     '/getTop100Repos',
-    (request) => repositories.getRepositories({ ...request.query, sort: 'stars', limit: 100 }),
+    (request) => repositories.getRepositories({
+      ...request.query, sort: 'stars', order: 'desc', limit: 100,
+    }),
   ],
 ];
