@@ -22,11 +22,11 @@ Params:
 
 | Name | Type | Value | Required | Description |
 | -----|:----:|:-------:|:--------:|:-----------:|
-| ```language``` | ```string``` | any | (Only if 'starting' is missing) | Query only repos written in the specified language _eg_ ```javascript```|
-| ```starting``` | ```string``` | date | (Only if 'language' is missing) | Query only created after the specified date _eg_ ```2020-07-27```|
-| ```limit``` | ```number``` | 0-100 | No | Limits the amount of repos per request _eg_ ```100```|
-| ```sort``` | ```string``` | ```stars``` ```forks``` ```help-wanted-issues``` ```updated```  | No | Sorts the repos by the specified field _eg_ ```stars```|
-| ```order``` | ```string``` | ```desc``` ```asc``` | No | Changed the direction of the sorting applied to the repos _eg_ ```desc```|
+| ```language``` | ```string``` | any | (Only if 'starting' is missing) | Query only repos written in the specified language _i.e._ ```javascript```|
+| ```starting``` | ```string``` | date | (Only if 'language' is missing) | Query only created after the specified date _i.e._ ```2020-07-27```|
+| ```limit``` | ```number``` | 0-100 | No | Limits the amount of repos per request _i.e._ ```100```|
+| ```sort``` | ```string``` | ```stars``` ```forks``` ```help-wanted-issues``` ```updated```  | No | Sorts the repos by the specified field _i.e_ ```stars```|
+| ```order``` | ```string``` | ```desc``` ```asc``` | No | Changed the direction of the sorting applied to the repos _i.e._ ```desc```|
 
 Returns JSON: 
 
@@ -48,9 +48,9 @@ Params:
 
 | Name | Type | Value | Required | Description |
 | -----|:----:|:-------:|:--------:|:-----------:|
-| ```language``` | ```string``` | any | (Only if 'starting' is missing) | Query only repos written in the specified language _eg_ ```javascript```|
-| ```starting``` | ```string``` | date | (Only if 'language' is missing) | Query only created after the specified date _eg_ ```2020-07-27```|
-| ```limit``` | ```number``` | 0-100 | No | Limits the amount of repos per request _eg_ ```100```|
+| ```language``` | ```string``` | any | (Only if 'starting' is missing) | Query only repos written in the specified language _i.e._ ```javascript```|
+| ```starting``` | ```string``` | date | (Only if 'language' is missing) | Query only created after the specified date _i.e._ ```2020-07-27```|
+| ```limit``` | ```number``` | 0-100 | No | Limits the amount of repos per request _i.e._ ```100```|
 
 Returns JSON: 
 
@@ -72,8 +72,8 @@ Params:
 
 | Name | Type | Value | Required | Description |
 | -----|:----:|:-------:|:--------:|:-----------:|
-| ```language``` | ```string``` | any | (Only if 'starting' is missing) | Query only repos written in the specified language _eg_ ```javascript```|
-| ```starting``` | ```string``` | date | (Only if 'language' is missing) | Query only created after the specified date _eg_ ```2020-07-27```|
+| ```language``` | ```string``` | any | (Only if 'starting' is missing) | Query only repos written in the specified language _i.e._ ```javascript```|
+| ```starting``` | ```string``` | date | (Only if 'language' is missing) | Query only created after the specified date _i.e._ ```2020-07-27```|
 
 Returns JSON: 
 
@@ -95,8 +95,8 @@ Params:
 
 | Name | Type | Value | Required | Description |
 | -----|:----:|:-------:|:--------:|:-----------:|
-| ```language``` | ```string``` | any | (Only if 'starting' is missing) | Query only repos written in the specified language _eg_ ```javascript```|
-| ```starting``` | ```string``` | date | (Only if 'language' is missing) | Query only created after the specified date _eg_ ```2020-07-27```|
+| ```language``` | ```string``` | any | (Only if 'starting' is missing) | Query only repos written in the specified language _i.e._ ```javascript```|
+| ```starting``` | ```string``` | date | (Only if 'language' is missing) | Query only created after the specified date _i.e._ ```2020-07-27```|
 
 Returns JSON: 
 
@@ -118,8 +118,8 @@ Params:
 
 | Name | Type | Value | Required | Description |
 | -----|:----:|:-------:|:--------:|:-----------:|
-| ```language``` | ```string``` | any | (Only if 'starting' is missing) | Query only repos written in the specified language _eg_ ```javascript```|
-| ```starting``` | ```string``` | date | (Only if 'language' is missing) | Query only created after the specified date _eg_ ```2020-07-27```|
+| ```language``` | ```string``` | any | (Only if 'starting' is missing) | Query only repos written in the specified language _i.e._ ```javascript```|
+| ```starting``` | ```string``` | date | (Only if 'language' is missing) | Query only created after the specified date _i.e._ ```2020-07-27```|
 
 Returns JSON: 
 
