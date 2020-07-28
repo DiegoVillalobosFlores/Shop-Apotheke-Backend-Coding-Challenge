@@ -2,7 +2,15 @@ Shop Apotheke Backend Challenge by Diego Villalobos.
 
 ## Made with Node + fastify
 
-[Up and running in Google Cloud Platform](https://server-apotheke-4mzymbpevq-ew.a.run.app/)
+[CI enabled on GCP with Cloud Build and Cloud Run](https://server-apotheke-4mzymbpevq-ew.a.run.app/)
+
+### How to run
+
+```yarn start-server```
+
+or
+
+```docker build -t backend-challenge:1.0.0 . && docker run -d -p 3000:3000 --name challenge backend-challenge:1.0.0```
 
 ### API Documentation
 
