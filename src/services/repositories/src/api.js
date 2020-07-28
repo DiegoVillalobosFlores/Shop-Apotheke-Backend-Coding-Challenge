@@ -14,14 +14,14 @@ class Repositories {
   }
 
   async getRepositories({
-    language, limit, createdAt, sort, order,
+    language, limit, starting, sort, order,
   }) {
     const params = {
       q: '', sort, order, per_page: limit,
     };
 
     if (language) params.q = params.q.concat(`language:${language}`);
-    if (createdAt) params.q = params.q.concat(`${language ? '+' : ''}created:>${createdAt}`);
+    if (starting) params.q = params.q.concat(`${language ? '+' : ''}created:>${starting}`);
 
     const url = this.generateURL(this.SEARCH_REPOS_URL, params);
 

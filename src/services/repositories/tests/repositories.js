@@ -25,7 +25,7 @@ test('get repos by created at', async (t) => {
   const { repositories } = t.context;
 
   const createdAtOnlyResponse = await repositories.getRepositories({
-    createdAt: '2020-07-26',
+    starting: '2020-07-26',
   });
 
   t.is(createdAtOnlyResponse.data.length > 0, true);
@@ -33,7 +33,7 @@ test('get repos by created at', async (t) => {
 
   const languageAndCreatedResponse = await repositories.getRepositories({
     language: 'javascript',
-    createdAt: '2019-07-26',
+    starting: '2019-07-26',
   });
 
   t.is(languageAndCreatedResponse.data.length > 0, true);
@@ -71,7 +71,7 @@ test('get repos with limit', async (t) => {
 
   const limitResponse = await repositories.getRepositories({
     language: 'javascript',
-    createdAt: '2020-06-26',
+    starting: '2020-06-26',
     limit: 2,
   });
 
