@@ -11,17 +11,17 @@ export default [
   ],
   [
     'get',
-    'getTop10Repos',
+    '/getTop10Repos',
     (request) => repositories.getRepositories({ ...request.query, sort: 'stars', limit: 10 }),
   ],
   [
     'get',
-    'getTop50Repos',
+    '/getTop50Repos',
     (request) => repositories.getRepositories({ ...request.query, sort: 'stars', limit: 50 }),
   ],
   [
     'get',
-    'getTop100Repos',
+    '/getTop100Repos',
     (request) => repositories.getRepositories({ ...request.query, sort: 'stars', limit: 100 }),
   ],
 ];
