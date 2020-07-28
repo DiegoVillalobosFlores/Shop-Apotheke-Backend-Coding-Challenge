@@ -16,7 +16,9 @@ class Repositories {
   async getRepositories({
     language, limit, createdAt, sort, order,
   }) {
-    const params = { q: '', sort, order };
+    const params = {
+      q: '', sort, order, per_page: limit,
+    };
 
     if (language) params.q = params.q.concat(`language:${language}`);
     if (createdAt) params.q = params.q.concat(`${language ? '+' : ''}created:>${createdAt}`);
@@ -25,10 +27,9 @@ class Repositories {
 
     const { body: result } = await superagent
       .get(url)
-      .set('User-Agent', this.USER_AGENT)
-      .set('Accept', 'application/vnd.github.mercy-preview+json');
+      .set('User-Agent', this.USER_AGENT);
 
-    return { data: result.items.slice(0, limit) };
+    return { data: result.items };
   }
 }
 
