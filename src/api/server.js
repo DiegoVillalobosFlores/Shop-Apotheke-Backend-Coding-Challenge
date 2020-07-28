@@ -8,7 +8,7 @@ routes.forEach(([type, route, callback]) => server[type](route, callback));
 
 (async () => {
   try {
-    await server.listen(3000);
+    await server.listen(process.env.PORT || 3000);
   } catch (e) {
     server.log.error(e);
     process.exit(1);
