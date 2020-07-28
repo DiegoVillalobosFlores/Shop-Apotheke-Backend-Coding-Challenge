@@ -1,20 +1,19 @@
 {
   "name": "shop-apotheke-backend-coding-challenge",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "description": "Backend challenge for shop apotheke",
   "repository": "https://github.com/DiegoVillalobosFlores/Shop-Apotheke-Backend-Coding-Challenge.git",
   "author": "Villalobos <diegovillalobos397@gmail.com>",
   "private": false,
   "scripts": {
-    "test": "nyc ava"
+    "test": "nyc ava",
+    "start-server": "node -r esm src/api/server.js"
   },
   "devDependencies": {
     "eslint": "7.5.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-plugin-import": "2.22.0",
-    "esm": "3.2.25",
     "nyc": "15.1.0"
   },
   "ava": {
@@ -26,6 +25,7 @@
     "ava": "3.11.0",
     "fastify": "3.1.1",
     "moment": "2.27.0",
-    "superagent": "5.3.1"
+    "superagent": "5.3.1",
+    "esm": "3.2.25"
   }
 }
