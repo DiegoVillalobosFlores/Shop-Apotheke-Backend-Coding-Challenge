@@ -1269,7 +1269,7 @@ fastify-error@^0.1.0:
   resolved "https://registry.yarnpkg.com/fastify-error/-/fastify-error-0.1.0.tgz#7ca9d3708a2b1a74aefed0e5dde1b96d0390f718"
   integrity sha512-jyCEc3VPEc8/PUwzDQAM2JlXLK2BG6L19mMJzbGij0TfdY1sHF9pCnnAn6Vcoi84TMTBOJynNDQUMUz6cjRmBw==
 
-fastify@^3.1.1:
+fastify@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.1.1.tgz#0a830f4a929abd7f2b05c08620a609a104300a36"
   integrity sha512-A7kBZIFAdpE/8MZ9qHpQV9IVPpfX63uWMaPN4p0fetax10C2p56iV/VEB5hOgtlXzayGn+4tf+tNHcZsfrjlnA==
@@ -2467,9 +2467,9 @@ path-key@^3.1.0:
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-type@^2.0.0:
   version "2.0.0"
