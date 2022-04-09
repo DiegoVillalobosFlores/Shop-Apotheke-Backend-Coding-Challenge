@@ -1269,7 +1269,7 @@ fastify-error@^0.1.0:
   resolved "https://registry.yarnpkg.com/fastify-error/-/fastify-error-0.1.0.tgz#7ca9d3708a2b1a74aefed0e5dde1b96d0390f718"
   integrity sha512-jyCEc3VPEc8/PUwzDQAM2JlXLK2BG6L19mMJzbGij0TfdY1sHF9pCnnAn6Vcoi84TMTBOJynNDQUMUz6cjRmBw==
 
-fastify@^3.1.1:
+fastify@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.1.1.tgz#0a830f4a929abd7f2b05c08620a609a104300a36"
   integrity sha512-A7kBZIFAdpE/8MZ9qHpQV9IVPpfX63uWMaPN4p0fetax10C2p56iV/VEB5hOgtlXzayGn+4tf+tNHcZsfrjlnA==
@@ -2156,10 +2156,10 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-moment@2.27.0:
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
-  integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
+moment@2.29.2:
+  version "2.29.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
+  integrity sha512-UgzG4rvxYpN15jgCmVJwac49h9ly9NurikMWGPdVxm8GZD6XjkKPxDTjQQ43gtGgnV3X0cAyWDdP2Wexoquifg==
 
 ms@2.0.0:
   version "2.0.0"
